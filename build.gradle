@@ -26,6 +26,5 @@ tasks {
         systemProperty("jb.vmOptionsFile", "${project.buildDir}/idea.vmoptions")
 
         systemProperty("idea.slow.operations.assertion", "false")
-        args = ["C:\\Users\\Mihailo\\Desktop\\Test InteliJ\\Test1"]
     }
 }
