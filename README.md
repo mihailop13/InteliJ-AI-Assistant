@@ -80,3 +80,11 @@ The plugin implements a **unidirectional data flow** for a responsive experience
 
 * **Conversation History**: Persistent local storage to save chat logs across different IDE sessions.
 * **Multi-file Context**: Expanding the context manager to analyze multiple open tabs or entire directories.
+
+---
+
+## 📧 Contact & Documentation
+
+For a more comprehensive look at the implementation details, in-depth UI architecture, and technical design decisions, a more extensive **Documentation.docx** file is available. 
+
+If you would like to review the full documentation, please feel free to contact me via email at: **mihailo.pantelic117@gmail.com**
