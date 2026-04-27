@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.17.4'
+}
+
+group = 'mihailop13.plugins'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+intellij {
+    version = '2023.2.6'
+    type = 'IC'
+}
+
+tasks {
+    runIde {
+        systemProperty("jb.vmOptionsFile", "${project.buildDir}/idea.vmoptions")
+
+        systemProperty("idea.slow.operations.assertion", "false")
+        args = ["C:\\Users\\Mihailo\\Desktop\\Test InteliJ\\Test1"]
+    }
+}

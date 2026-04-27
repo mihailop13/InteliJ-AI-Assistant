@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>mihailop13.plugin</id>
+    <name>AiPlugin</name>
+    <vendor>Mihailo</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="AI Helper"
+                factoryClass="mihailop13.plugins.view.AIToolWindowFactory"
+                anchor="right"
+                secondary="true"/>
+    </extensions>
+
+</idea-plugin>
