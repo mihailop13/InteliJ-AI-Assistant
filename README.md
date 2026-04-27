@@ -4,7 +4,7 @@
 
 ---
 
-![UI Design](putanja/do/tvoje/slike1.png)  
+![UI Design](images/Plugin_design.png)  
 *Figure 1: The AI Helper user interface integrated into the IntelliJ sidebar.*
 
 ---
@@ -21,7 +21,7 @@
 
 To ensure deep integration with the JetBrains platform, the UI follows the standard **IntelliJ tool window hierarchy**:
 
-![UI Architecture Diagram](putanja/do/tvoje/slike2.png)  
+![UI Architecture Diagram](images/IntelliJ_hierarchy.png)  
 *Figure 2: Component hierarchy: ToolWindowManager → ToolWindow → ContentManager → Content.*
 
 * **ToolWindowManager**: Manages global positioning and visibility of all tool windows.
